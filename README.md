@@ -1,94 +1,69 @@
-🌍 CarbonIQ — Blockchain-Based Blue Carbon Registry & MRV System
-Smart India Hackathon 2025 | Team KALKI (Team ID: 103016)
+🌍 CarbonIQ — Revolutionizing India’s Blue Carbon Economy with Blockchain Transparency
 
-Problem Statement ID: 25038 | Theme: Clean & Green Technology | Category: Software
 
-⚡ Overview
 
-CarbonIQ is a blockchain-based Blue Carbon Registry and MRV (Monitoring, Reporting, Verification) system built to ensure transparency, trust, and decentralization in India’s carbon credit ecosystem.
-It integrates IoT sensors, drones, AI/ML, and blockchain to verify blue carbon restoration and generate trustworthy carbon credits — empowering coastal communities and supporting India’s Net Zero 2070 mission.
 
-🎯 Problem
 
-India lacks a decentralized MRV system for blue carbon monitoring.
-Current systems are fragmented, centralized, and dependent on expensive third-party audits.
 
-Key Issues:
+CarbonIQ is a next-generation Blockchain-Based Blue Carbon Registry and MRV System developed for Smart India Hackathon 2025.
+It ensures trust, transparency, and decentralization in carbon credit generation using IoT sensors, drones, ML, and blockchain—empowering coastal communities while driving India’s Net Zero 2070 mission.
 
-Scattered and non-standardized field data
+✨ Key Features
 
-Weak stakeholder participation
+🛰 Automated MRV System – Combines IoT, drones, and satellite data for real-time carbon monitoring.
 
-Unverified carbon credits
+🔗 Blockchain Integration – Tokenized carbon credits via smart contracts on Ethereum.
 
-No integrated app combining field data, verification, and credit generation
+🧠 AI/ML Carbon Estimation – Predicts carbon stock (tCO₂/ha) from sensor and image data.
 
-💡 Solution
+👥 3-Tier Verification – Local → Technical → NCCR validation for credibility.
 
-CarbonIQ creates a trustless, India-focused MRV platform with:
+💰 Carbon Marketplace – Direct trade of verified credits for community income.
 
-🛰️ Multi-source data fusion (satellite, drone, IoT)
+🌿 Inclusive Model – Coastal panchayats, NGOs, and local groups onboarded via dashboards.
 
-🔗 Blockchain-based credit issuance via smart contracts
+🚀 Tech Stack
+Frontend	Backend	Blockchain	Storage	AI/ML
+React, Tailwind CSS, TypeScript	Express, Flask, Firebase	Solidity, Hardhat, Ethers.js	IPFS / Pinata	Python (XGBoost, Random Forest)
+⚙️ Architecture Overview
 
-🧠 ML models for carbon estimation
+Data Sources: IoT sensors, drones, and Sentinel satellite imagery.
 
-👥 Three-tier community verification (local → technical → NCCR)
+AI Processing: ML models estimate biomass and carbon stock.
 
-💰 Tokenized marketplace for blue carbon credits
+Verification Layers: Local community → Technical remote → NCCR final validation.
 
-🧱 Tech Stack
-Layer	Technologies
-Frontend	React, Tailwind CSS, TypeScript
-Backend	Express, Flask, Firebase
-Blockchain	Solidity, Hardhat, Ethers.js, Ethereum
-Storage	IPFS / Pinata
-AI/ML	Python (XGBoost, Random Forest, Ridge Regression)
+Blockchain: Smart contracts issue verifiable, traceable carbon tokens.
 
-Each tree or restoration plot is tracked using a unique QR code for transparency.
-
-🧩 System Architecture
-
-Data Input: IoT sensors, drones, and satellite imagery
-
-Processing: AI-driven carbon estimation and automated MRV
-
-Verification: Community → Technical → NCCR
-
-Blockchain: Smart contracts for carbon token creation and transfer
-
-💰 Marketplace & Business Model
-
-Carbon Credit Dashboard: Converts ML-predicted carbon into tokenized, verifiable credits.
-
-Marketplace: Trades credits directly, rewarding local communities.
-
-Revenue Model: Registry fees, SaaS APIs, MRV-as-a-Service, and analytics subscriptions.
+Marketplace: Carbon credits listed for sale with transparent revenue sharing.
 
 🌿 Impact
 
-Environmental:
+Environmental: Carbon sequestration • Biodiversity restoration • Coastal protection
+Social: Community livelihoods • Green jobs • Transparent verification
+Economic: Verified carbon credits • Market trust • New income streams
 
-Accelerated blue carbon sequestration (up to 5× forest rate)
+🔧 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Nishantjha0007/CarbonIQ.git
+cd CarbonIQ
 
-Biodiversity and coastal resilience
+2️⃣ Install Dependencies
+npm install
 
-Social:
+3️⃣ Run the Development Server
+npm run dev
 
-Community livelihoods and green jobs
+4️⃣ Environment Setup
 
-Local transparency via blockchain MRV
+Create a .env file in the root directory:
 
-Economic:
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
+BLOCKCHAIN_RPC_URL=your_blockchain_node
+IPFS_API_KEY=your_ipfs_key
 
-Verified emission reductions and new income streams
-
-Premium credits attract global climate investors
-
-🧭 Major Blue Carbon Zones (India)
-
-Sundarbans • Godavari & Krishna Deltas • Andaman & Nicobar Islands •
-Gulf of Kachchh & Khambhat • Raigad • Pichavaram • Gulf of Mannar
+5️⃣ Build for Production
+npm run build
 
 🔗 Repository
 
