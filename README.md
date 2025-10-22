@@ -67,3 +67,10 @@ IPFS_API_KEY=your_ipfs_key
 5️⃣ Build for Production
 npm run build
 
+🔗 Repository
+
+👉 GitHub Repository – CarbonIQ
+
+⚖️ License
+
+This project is licensed under the MIT License — © 2025 Nishant Kumar Jha
