@@ -75,7 +75,7 @@ npm run build
 
 🔗 Repository
 
-👉 GitHub Repository – CarbonIQ
+👉 GitHub Repository – [CarbonIQ](https://github.com/Nishantjha0007/CarbonIQ)
 
 ⚖️ License
 
