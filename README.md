@@ -6,6 +6,12 @@
 
 > **CarbonIQ** is a next-generation **Blockchain-Based Blue Carbon Registry and MRV System** developed for **Smart India Hackathon 2025**.  
 > It ensures **trust, transparency, and decentralization** in carbon credit generation using **IoT sensors, drones, ML, and blockchain**—empowering coastal communities while driving India’s **Net Zero 2070** mission.
+>
+> BLOCKCHAIN BASED BLUE CARBON REGISTRY AND MRV SYSYTEM BY TEAM KALKI.
+
+[![Watch the video](https://img.youtube.com/vi/aKaD_g4Ogv8/0.jpg)](https://youtu.be/aKaD_g4Ogv8)
+
+<sub>Click the image above to watch the video on YouTube.</sub>
 
 ---
 
